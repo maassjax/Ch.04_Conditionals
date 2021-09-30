@@ -18,3 +18,27 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
+
+x = float(input("Enter number here: "))
+
+#first test
+if x%2==0:
+    print("even")
+else:
+    print("odd")
+
+#second test
+if x > 0:
+    print("Positive")
+elif x < 0:
+    print("Negative")
+else:
+    print("zero")
+
+
+#third test
+if x >= -100 and x <=100:
+    print("inclusive")
+else:
+    print("exclusive")
+
